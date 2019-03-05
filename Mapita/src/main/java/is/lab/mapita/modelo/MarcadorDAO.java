@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author jonathan
+ * @author angela
  */
 public class MarcadorDAO extends AbstractDAO<Marcador>{
     /**

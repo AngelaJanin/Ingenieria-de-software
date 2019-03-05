@@ -12,7 +12,7 @@ import javax.faces.bean.ManagedBean;
 
 /**
  *
- * @author gareki
+ * @author angela
  */
 @ManagedBean
 public class AgregaUsuario {

@@ -21,7 +21,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author jonathan
+ * @author angela
  */
 
 @WebFilter("/user/*")
