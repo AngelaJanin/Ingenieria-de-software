@@ -45,15 +45,32 @@
                     </h:form>
                     <br/>
                     <h:form>
-                        <p:inputNumber id="idmarcador" value="#{eliminaMarcador.idmarcador}" placeholder="Ingresa el id marcador"/>
-                        <p:commandButton action="#{eliminaMarcador.eliminaMarcador()}" value="Eliminar marcador" ajax="false" />
+                        <p:inputNumber id="idmarcador" value="#{eliminaMarcador.idmarcador}" placeholder="Ingresa el id marcador"/><br/>
+                        <p:commandButton action="#{eliminaMarcador.eliminaMarcador()}" value="Eliminar marcador" ajax="false" /><br/>
                     </h:form>
-                    
+                    <br>
+                       
+                    </br>
+                    <h:form>
+                        <p:inputText id="idusuario" value="#{eliminaUsuario.idusuario}" placeholder="id a eliminar"/><br/>
+                        <p:commandButton action="#{eliminaUsuario.eliminaUsuario()}" value="Eliminar"/><br/>
+                    </h:form>
+                    <br>
+                     
+                    </br>
+                    <h:form>
+                        <p:inputText id="idusuario" value="#{actualizaUsuario.idusuario}" placeholder="ID Usuario" /> <br/>
+                        <p:inputText id="nombreA" value="#{actualizaUsuario.nombre}" placeholder="Nombre"/> <br/>
+                        <p:inputText id="correoA" value="#{actualizaUsuario.correo}" placeholder="Correo"/> <br/>
+                        <p:password id="contraseniaA" value="#{actualizaUsuario.contrasenia}" placeholder="Contraseña"/> <br/>
+                        <p:calendar id="fechaA" value="#{actualizaUsuario.fechanacimiento}" placeholder="Fecha de nacimiento"/> <br/>
+                        <p:commandButton action="#{actualizaUsuario.actualizarUsuario()}" value="Actualizar" ajax="false"/> 
+                    </h:form>
                 </aside>
             </main>
             <footer>
                 <h3>
-                    Lorem ipsum dolor sit amet.
+                    CRUD creado por el equipo Maave.
                 </h3>
             </footer>
 
