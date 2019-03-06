@@ -14,14 +14,16 @@ import javax.faces.bean.ManagedBean;
  *
  * @author angela
  */
+
+@ManagedBean
 public class EliminaUsuario {
     private int idusuario;
 
-    public int getIduser() {
+    public int getIdusuario() {
         return idusuario;
     }
 
-    public void setIduser(int idusuario) {
+    public void setIdusuario(int idusuario) {
         this.idusuario = idusuario;
     }
 
