@@ -1,6 +1,7 @@
 is/lab/mapita/modelo/AbstractDAO.class
 is/lab/mapita/modelo/MarcadorDAO.class
 is/lab/mapita/controlador/ActualizaMarcador.class
+is/lab/mapita/controlador/AgregaMarcador.class
 is/lab/mapita/controlador/ActualizaUsuario.class
 is/lab/mapita/modelo/UsuarioDAO.class
 is/lab/mapita/controlador/ControladorSesion.class
