@@ -72,7 +72,8 @@ public class ActualizaUsuario {
         u.setContrasenia(contrasenia);
         u.setFechanacimiento(fechanacimiento);
         udb.update(u);
-}
+        
+    }
     
     
 }

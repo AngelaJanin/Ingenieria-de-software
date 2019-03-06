@@ -1,4 +1,9 @@
 package is.lab.mapita.modelo;
+
+
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 // Generated 08-feb-2019 13:44:51 by Hibernate Tools 4.3.1
 
 /**
@@ -65,8 +70,6 @@ public class Marcador  implements java.io.Serializable {
     public void setLatitud(double latitud) {
         this.latitud = latitud;
     }
-
-
 
 
 }
