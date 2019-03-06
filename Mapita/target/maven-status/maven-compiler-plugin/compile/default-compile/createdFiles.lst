@@ -6,6 +6,7 @@ is/lab/mapita/modelo/UsuarioDAO.class
 is/lab/mapita/controlador/ControladorSesion.class
 is/lab/mapita/controlador/EliminaMarcador.class
 is/lab/mapita/controlador/EliminaUsuario.class
+is/lab/mapita/controlador/ConsultarMarcador.class
 is/lab/mapita/controlador/FilterSession.class
 is/lab/mapita/modelo/Marcador.class
 is/lab/mapita/controlador/ConsultarUsuario.class
